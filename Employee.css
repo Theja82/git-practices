@@ -1,0 +1,61 @@
+.employee-container {
+    margin: 20px auto;
+    /* Center the container horizontally */
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    display: flex;
+    /* Use flexbox */
+    flex-direction: column;
+    /* Align items vertically */
+    align-items: center;
+    /* Center items horizontally */
+}
+.save-button{
+    margin-left: 75px;
+    color: white;
+    background-color: black;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edit-button,
+.delete-button {
+    display: flex;
+    /* Display buttons inline */
+    /* justify-content: center; */
+    background-color: #007bff;
+    color: white;
+    margin-right: 5px;
+}
+
+.demo {
+    display: flex;
+}
+
+.delete-button {
+    background-color: #dc3545;
+}
